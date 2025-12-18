@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excelora Services | Professional Web Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center gap-2">
+                    <div class="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">E</span>
+                    </div>
+                    <span class="text-xl font-bold tracking-tight text-primary">Excelora <span
+                            class="text-secondary">Services</span></span>
+                </div>
+
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link text-secondary">Contact</a>
+                </div>
+
+                <button class="md:hidden text-primary text-2xl" id="menuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient pt-32 pb-20 lg:pt-48 lg:pb-32 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                        Hi, I’m <span class="text-accent">Excelora</span>, Professional Web Developer.
+                    </h1>
+                    <p class="text-lg text-gray-300 mb-8 leading-relaxed max-w-xl">
+                        I specialize in WordPress website design & development, WooCommerce e-commerce solutions, and
+                        custom websites built with HTML, CSS, JavaScript, PHP & MySQL. Delivering responsive, fast, and
+                        SEO-friendly results.
+                    </p>
+
+                    <div class="flex items-center gap-3 mb-8">
+                        <div class="w-12 h-px bg-accent/50"></div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#contact"
+                            class="px-8 py-4 bg-secondary hover:bg-blue-700 text-white rounded-lg font-bold transition-all shadow-lg shadow-blue-500/20">
+                            Start Your Project
+                        </a>
+                        <a href="#services"
+                            class="px-8 py-4 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg font-bold transition-all">
+                            View Services
+                        </a>
+                    </div>
+                </div>
+                <div class="relative hidden lg:block">
+                    <div class="absolute -top-20 -right-20 w-64 h-64 bg-secondary/20 rounded-full blur-3xl"></div>
+                    <div class="absolute -bottom-20 -left-20 w-64 h-64 bg-accent/20 rounded-full blur-3xl"></div>
+                    <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-white/10 shadow-2xl">
+                        <div class="flex gap-2 mb-4">
+                            <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                        </div>
+                        <pre class="text-sm text-blue-300 font-mono">
+<code><span class="text-purple-400">class</span> <span class="text-yellow-400">ExceloraServices</span> {
+  <span class="text-purple-400">constructor</span>() {
+    <span class="text-accent">this</span>.developer = <span class="text-green-400">"Muhammad Hammad"</span>;
+    <span class="text-accent">this</span>.focus = [<span class="text-green-400">"WordPress"</span>, <span class="text-green-400">"Custom PHP"</span>];
+    <span class="text-accent">this</span>.goal = <span class="text-green-400">"Scalable Growth"</span>;
+  }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-primary mb-4">Comprehensive Solutions</h2>
+                <div class="h-1.5 w-20 bg-secondary mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Cards -->
+                <div class="service-card p-8 rounded-xl bg-slate-50 border border-gray-100">
+                    <div
+                        class="w-12 h-12 bg-blue-100 text-secondary rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">WordPress Development</h3>
+                    <p class="text-gray-600 mb-4">Expert custom themes, plugin integration, and site optimization.</p>
+                </div>
+
+                <div class="service-card p-8 rounded-xl bg-slate-50 border border-gray-100">
+                    <div
+                        class="w-12 h-12 bg-blue-100 text-secondary rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">E-Commerce Stores</h3>
+                    <p class="text-gray-600 mb-4">Scalable WooCommerce solutions for online business growth.</p>
+                </div>
+
+                <div class="service-card p-8 rounded-xl bg-slate-50 border border-gray-100">
+                    <div
+                        class="w-12 h-12 bg-blue-100 text-secondary rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Full Website Dev</h3>
+                    <p class="text-gray-600 mb-4">Custom built using HTML, CSS, JS, PHP & MySQL for unique needs.</p>
+                </div>
+
+                <div class="service-card p-8 rounded-xl bg-slate-50 border border-gray-100">
+                    <div
+                        class="w-12 h-12 bg-blue-100 text-secondary rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Landing Pages</h3>
+                    <p class="text-gray-600 mb-4">High-converting sales funnels designed to capture leads.</p>
+                </div>
+
+                <div class="service-card p-8 rounded-xl bg-slate-50 border border-gray-100">
+                    <div
+                        class="w-12 h-12 bg-blue-100 text-secondary rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Corporate Platforms</h3>
+                    <p class="text-gray-600 mb-4">Professional business systems for real estate, hotels, and education.
+                    </p>
+                </div>
+
+                <div class="service-card p-8 rounded-xl bg-slate-50 border border-gray-100">
+                    <div
+                        class="w-12 h-12 bg-blue-100 text-secondary rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">SEO & Optimization</h3>
+                    <p class="text-gray-600 mb-4">Speed, security, and search engine friendly configurations.</p>
+                </div>
+            </div>
+
+            <!-- Expertise List -->
+            <div class="mt-16 bg-primary text-white p-8 md:p-12 rounded-2xl">
+                <h3 class="text-2xl font-bold mb-8 text-center">Niche Expertise</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm md:text-base">
+                    <div class="flex items-center gap-2"><i class="fas fa-check text-accent"></i> Real Estate Platforms
+                    </div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check text-accent"></i> Education Systems
+                    </div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check text-accent"></i> Booking Solutions
+                    </div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check text-accent"></i> Fitness & Sports</div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check text-accent"></i> News & Magazines</div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check text-accent"></i> Wedding & Travel</div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check text-accent"></i> Health Platforms</div>
+                    <div class="flex items-center gap-2"><i class="fas fa-check text-accent"></i> Personal Portfolios
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2">
+                    <div class="relative">
+                        <div class="profile-image-container aspect-[4/5] group">
+                            <div class="image-glow"></div>
+                            <!-- Updated to use your uploaded image -->
+                            <img src="Image.PNG" alt="Muhammad Hammad - Excelora Services"
+                                class="relative z-10 w-full h-full object-contain p-2 transition-transform duration-700 group-hover:scale-105"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+
+                            <!-- Fallback UI if image fails to load -->
+                            <div
+                                class="hidden w-full h-full flex flex-col items-center justify-center bg-secondary/10 text-secondary p-8 text-center">
+                                <i class="fas fa-user-circle text-8xl mb-4"></i>
+                                <p class="font-bold">Muhammad Hammad</p>
+                                <p class="text-sm opacity-70">Web Development Expert</p>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badge -->
+                        <div
+                            class="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl z-20 border border-gray-100">
+                            <div class="flex items-center gap-4">
+                                <div
+                                    class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center text-secondary font-bold text-xl">
+                                    3+
+                                </div>
+                                <div>
+                                    <p class="text-primary font-bold leading-none">Years</p>
+                                    <p class="text-gray-500 text-xs">Experience</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl font-extrabold text-primary mb-6">About Me</h2>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        I’m a frontend developer focused on clean, human-written HTML, CSS, and JavaScript.
+                        I also build complete websites using PHP, databases, and WordPress.
+                    </p>
+                    <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                        I help businesses create professional, responsive websites that work perfectly on all devices.
+                        Whether it's a simple landing page or a complex e-commerce system, I deliver high-quality code.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="p-4 bg-white rounded-lg border border-gray-100 shadow-sm">
+                            <i class="fas fa-mobile-alt text-secondary mb-2"></i>
+                            <p class="font-bold">Responsive Design</p>
+                        </div>
+                        <div class="p-4 bg-white rounded-lg border border-gray-100 shadow-sm">
+                            <i class="fas fa-shield-alt text-secondary mb-2"></i>
+                            <p class="font-bold">Secure Systems</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-primary mb-6">Let's Work Together</h2>
+            <p class="text-gray-600 mb-12 text-lg">Ready to grow your business online? Reach out today for a
+                professional consultation.</p>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <a href="mailto:excelora.services@gmail.com"
+                    class="flex items-center justify-center gap-4 p-6 bg-slate-50 rounded-2xl hover:bg-slate-100 transition-colors border border-gray-100">
+                    <div
+                        class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-secondary shadow-sm">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="text-left">
+                        <p class="text-sm text-gray-500 uppercase tracking-widest font-bold">Email</p>
+                        <p class="text-primary font-bold">excelora.services@gmail.com</p>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/923001106317"
+                    class="flex items-center justify-center gap-4 p-6 bg-slate-50 rounded-2xl hover:bg-slate-100 transition-colors border border-gray-100">
+                    <div
+                        class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-green-500 shadow-sm">
+                        <i class="fab fa-whatsapp text-2xl"></i>
+                    </div>
+                    <div class="text-left">
+                        <p class="text-sm text-gray-500 uppercase tracking-widest font-bold">WhatsApp</p>
+                        <p class="text-primary font-bold">+92 300 1106317</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="bg-primary p-8 md:p-12 rounded-3xl text-white shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-secondary/10 rounded-full -mr-16 -mt-16"></div>
+                <div class="relative z-10">
+                    <h4 class="text-2xl font-bold mb-4 text-accent uppercase tracking-wider">Global Digital Business
+                        Solutions</h4>
+                    <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+                        We help startups and established enterprises worldwide grow their online presence through
+                        high-performance, multilingual e-commerce platforms and advanced lead generation architectures
+                        built for scale.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center border-b border-gray-800 pb-8 mb-8">
+                <div class="flex items-center gap-2 mb-4 md:mb-0">
+                    <div class="w-8 h-8 bg-secondary rounded flex items-center justify-center">
+                        <span class="text-white font-bold">E</span>
+                    </div>
+                    <span class="text-xl font-bold tracking-tight">Excelora Services</span>
+                </div>
+
+
+                <p class="text-center text-gray-500 text-sm">
+                    &copy;
+                    <script>document.write(new Date().getFullYear())</script> Excelora Services. All Rights Reserved.
+                    <br>
+                    <span class="text-accent font-medium tracking-widest uppercase text-sm"> CEO Muhammad Hammad</span>
+                </p>
+            </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        menuBtn.addEventListener('click', () => {
+            document.querySelector('#services').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>

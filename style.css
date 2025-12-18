@@ -1,0 +1,81 @@
+/* Custom Color Palette */
+        :root {
+            --primary: #0F172A;
+            --secondary: #2563EB;
+            --accent: #38BDF8;
+            --background: #F8FAFC;
+            --text: #020617;
+        }
+
+        body {
+            background-color: var(--background);
+            color: var(--text);
+            scroll-behavior: smooth;
+        }
+
+        .bg-primary { background-color: var(--primary); }
+        .text-secondary { color: var(--secondary); }
+        .bg-secondary { background-color: var(--secondary); }
+        .border-accent { border-color: var(--accent); }
+        .text-accent { color: var(--accent); }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+        }
+
+        .service-card {
+            transition: all 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.1);
+        }
+
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: var(--accent);
+            transition: width 0.3s;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .profile-image-container {
+            position: relative;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            /* Professional gradient background that matches the blue theme */
+            background: linear-gradient(to bottom, #f1f5f9, #e2e8f0);
+            box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.15);
+        }
+
+        .profile-image-container::before {
+            content: '';
+            position:absolute;
+            inset: 0;
+            border: 8px solid white;
+            border-radius: 1.5rem;
+            z-index: 10; 
+        }
+
+        .image-glow {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            height: 20%;
+            background: var(--secondary);
+            filter: blur(50px);
+            opacity: 0.1;
+            z-index: 1;
+        }
